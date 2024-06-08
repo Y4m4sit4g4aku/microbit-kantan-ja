@@ -1,0 +1,12 @@
+{
+  "name": "microbit-kantan-ja",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "microbitのエディタ内の日本語を、子供向けにわかりやすい言葉に変換します。",
+  "content_scripts": [{
+    "matches": ["https://makecode.microbit.org/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
