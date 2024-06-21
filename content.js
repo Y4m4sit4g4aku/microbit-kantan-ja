@@ -49,7 +49,8 @@ let KANTAN_JA_REPLACE_TEXT = [
   ["端子", "ピン"],
   ["加速度", "ゆれ"],
   ["方角", "むき"],
-  ["温度", "おんど"]
+  ["温度", "おんど"],
+  ["押","お"]
 ]
 
 function replaceText(node) {
